@@ -1,21 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
-  
-    <!--Hoja de estilos-->
-    <link rel="stylesheet" href="./styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nocturna · Página de la banda</title>
 
-    <title>Document</title>
 </head>
 <body>
-    
+
+<header>
+  <nav class="wrap" aria-label="Principal">
+    <a href="#inicio" class="logo"><span class="ph" aria-hidden="true">logo</span><span>Nocturna</span></a>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#biografia">Biografía</a></li>
+      <li><a href="#eventos">Eventos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="inicio" aria-label="Banner principal">
+    <span class="luz l1" aria-hidden="true"></span>
+    <span class="luz l2" aria-hidden="true"></span>
+    <span class="luz l3" aria-hidden="true"></span>
+    <h1>NOCTURNA</h1>
+    <p>Rock alternativo desde Bogotá</p>
+    <a href="#eventos" class="btn solid">Ver próximos eventos</a>
+    <span class="nota">Imagen de fondo: foto de concierto</span>
+  </section>
+
+  <section class="bio" id="biografia">
+    <div class="wrap">
+      <div class="ph" role="img" aria-label="Espacio para la foto de la banda">Foto de la banda</div>
+      <div>
+        <h2>Biografía</h2>
+        <p>Nacida en 2019 en Bogotá, Nocturna mezcla guitarras densas con sintetizadores y letras en español. Cuatro integrantes, un EP y más de cien conciertos en teatros y festivales del país.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="eventos" id="eventos">
+    <div class="wrap">
+      <h2>Próximos eventos</h2>
+      <div class="fila"><span class="fecha">12 oct</span><span class="lugar">Bogotá · Teatro Colón</span><a href="#" class="btn">Comprar boletas</a></div>
+      <div class="fila"><span class="fecha">26 oct</span><span class="lugar">Medellín · Teatro Pablo Tobón</span><a href="#" class="btn">Comprar boletas</a></div>
+      <div class="fila"><span class="fecha">09 nov</span><span class="lugar">Cali · Teatro Municipal</span><a href="#" class="btn">Comprar boletas</a></div>
+      <div class="fila"><span class="fecha">23 nov</span><span class="lugar">Cartagena · Centro de Convenciones</span><a href="#" class="btn">Comprar boletas</a></div>
+    </div>
+  </section>
+</main>
+
+<footer id="contacto">
+  <div class="wrap">
+    <small>© 2026 Nocturna</small>
+    <ul class="redes">
+      <li><a href="#" aria-label="Instagram">IG</a></li>
+      <li><a href="#" aria-label="Spotify">SP</a></li>
+      <li><a href="#" aria-label="YouTube">YT</a></li>
+      <li><a href="#" aria-label="TikTok">TK</a></li>
+    </ul>
+  </div>
+</footer>
+
 </body>
 </html>
