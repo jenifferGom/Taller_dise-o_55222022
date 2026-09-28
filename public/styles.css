@@ -1,5 +1,9 @@
 :root {
-   --blanco: #ffffff;
+    --black: #000000;
+    --fondo: #3A004D;
+    --sm: 16px;
+
+    --blanco: #ffffff;
     --gris-claro: #f5f5f5;
     --gris-borde: #cccccc;
     --gris-texto: #444444;
@@ -285,7 +289,7 @@ footer small {
     color: var(--fondo);
 }
 
-/* para el telefono */
+/* Celular */
 @media (max-width: 760px) {
     nav ul { gap: var(--sm); font-size: 14px; }
     .logo span:last-child { display: none; }
